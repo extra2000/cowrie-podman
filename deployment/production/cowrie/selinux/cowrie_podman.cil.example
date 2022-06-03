@@ -1,0 +1,6 @@
+(block cowrie_podman
+    (blockinherit container)
+    (allow process node_t ( tcp_socket ( node_bind )))
+    (allow process self ( tcp_socket ( listen )))
+    (allow process ssh_port_t ( tcp_socket ( name_bind )))
+)

@@ -1,0 +1,5 @@
+output/*
+docs-cowrie-pod.yaml
+
+src/*
+!src/.gitkeep
